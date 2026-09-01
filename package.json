@@ -1,0 +1,27 @@
+{
+  "name": "rewardbank",
+  "version": "1.0.0",
+  "description": "Screen time is earned — ledger-based reward system",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx src/demo.ts",
+    "simulate": "tsx src/simulator.ts"
+  },
+  "keywords": ["rewardbank", "screen-time", "ledger"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}
